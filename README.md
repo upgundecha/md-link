@@ -13,3 +13,8 @@ The extension will generate the link and copy it to clipboard
 Watch video for a quick demo
 
 [![How to use Markdown Link Generator](https://img.youtube.com/vi/9HS8XoBnn5o/0.jpg)](https://www.youtube.com/watch?v=9HS8XoBnn5o)
+
+---
+
+## Credits
+This extension uses code for copying the contents to clipboard from [30secondsofcode.org](https://www.30secondsofcode.org/blog/s/copy-text-to-clipboard-with-javascript). I would like to thank you :pray: the original author for sharing this method.
