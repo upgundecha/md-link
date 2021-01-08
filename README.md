@@ -1,9 +1,7 @@
 # md-link
 ![](icon48.png)
 
-A Chrome extension to generate inline Markdown link from the selected text and current url of the tab
-
-The extension will generate the link and copy it to clipboard
+A Chrome extension to generate inline Markdown link from the selected text and current url of the tab. The extension will generate the link and copy it to clipboard.
 
 ---
 ### How to use it?
