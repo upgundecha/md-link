@@ -1,3 +1,10 @@
+chrome.contextMenus.create ({
+  "title": "Copy Markdown Link",
+  "type": "normal",
+  "contexts": ["selection"],
+  "onclick": generateMdLink ()
+});
+
 function generateMdLink(info, tab) {
   return function (info, tab) {
     var selection = info.selectionText;
@@ -5,13 +12,6 @@ function generateMdLink(info, tab) {
     copyTextToClipboard(mdLink)
   }
 }
-
-chrome.contextMenus.create ({
-  "title": "Copy Markdown Link",
-  "type": "normal",
-  "contexts": ["selection"],
-  "onclick": generateMdLink ()
-});
 
 //source - https://www.30secondsofcode.org/blog/s/copy-text-to-clipboard-with-javascript
 function copyTextToClipboard(text) {
