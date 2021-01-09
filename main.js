@@ -26,7 +26,7 @@ function copyTextToClipboard(text) {
 
 function notify() {
   new Notification('', {
-    icon: '48.png',
+    icon: 'icon128.png',
     body: 'Link is copied to the clipboard'
   });
 }
