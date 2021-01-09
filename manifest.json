@@ -5,7 +5,7 @@
     "author" : "Unmesh Gundecha",
     "manifest_version": 2,
 
-    "permissions": ["contextMenus", "tabs", "clipboardWrite"],
+    "permissions": ["contextMenus", "tabs", "clipboardWrite", "notifications"],
     "background": {
       "scripts": ["main.js"]
     },
