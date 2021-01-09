@@ -21,4 +21,12 @@ function copyTextToClipboard(text) {
   copyFrom.select();
   document.execCommand('copy');
   document.body.removeChild(copyFrom);
+  notify();
+}
+
+function notify() {
+  new Notification('', {
+    icon: '48.png',
+    body: 'Link is copied to the clipboard'
+  });
 }
